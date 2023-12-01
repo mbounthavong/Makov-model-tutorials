@@ -9,7 +9,8 @@ This seminar will take place over two days:
 
 Reading materials for the seminar are located in the [Readings folder](https://github.com/mbounthavong/Makov-model-tutorials/tree/main/Readings).
 
-### Notes (01 December 2023):
+## Notes
+### 01 December 2023:
 - Please check back here prior to the seminar to download the most recent updates
 
 ## Useful links

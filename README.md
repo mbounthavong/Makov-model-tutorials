@@ -12,6 +12,10 @@ Reading materials for the seminar are located in the [Readings folder](https://g
 ## Notes (01 December 2023):
 - Please check back here prior to the seminar to download the most recent updates
 
+## Useful links
+- VA Health Economics Resource Center (HERC) website ([link](https://www.research.va.gov/programs/csp/herc.cfm))
+
+
 
 
 

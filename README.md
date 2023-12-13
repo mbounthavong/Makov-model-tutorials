@@ -1,7 +1,7 @@
 # Introduction to Markov models in Cost-Effectiveness Analysis
 
 
-Materials for the VA Health Economics Resource Center (HERC) course on "Introduction to Markov Models in Cost-Effectiveness Analysis" will be upload prior to the start of the seminar on Wednesday, 14 February 2023.
+Materials for the VA Health Economics Resource Center (HERC) course on "Introduction to Markov Models in Cost-Effectiveness Analysis" will be uploaded prior to the start of the seminar on Wednesday, 14 February 2024.
 
 This seminar will take place over two days:
 - Wednesday, 14 February 2023 @ 11:00 am to 12:00 pm (PT)

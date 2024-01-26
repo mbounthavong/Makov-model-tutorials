@@ -1,0 +1,102 @@
+body, html {
+	
+}
+
+
+
+div.tooltip {
+    position: absolute;
+    text-align: left;
+    
+    min-width: 120px;
+    max-width: 250px;
+    min-height: 50px;
+    padding: 5px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+#container {
+
+}
+
+
+
+
+
+.simple div {
+
+}
+
+
+
+.node circle {
+	cursor: pointer;
+	fill: #fff;
+	stroke: steelblue;
+	stroke-width: 1.5px;
+}
+
+.node text {
+	fill: black;
+	font-size: 11px;
+}
+
+
+path.link {
+	fill: none;
+	stroke: #ccc;
+	stroke-width: 1.5px;
+	
+}
+      
+
+      
+.node.selected {
+	fill: orange;
+}
+
+.node {
+	fill: white;
+}
+
+.vmenu {
+	border:1px solid #aaa;
+	position:absolute;
+	background:#fff;
+	display:none;
+	font-size:0.75em;
+}
+
+.vmenu .first_li span {
+	width:100px;
+	display:block;
+	padding:5px 10px;
+	cursor:pointer
+}
+
+.vmenu .inner_li {
+	display:none;
+	margin-left:120px;
+	position:absolute;
+	border:1px solid #aaa;
+	border-left:1px solid #ccc;
+	margin-top:-28px;
+	background:#fff;
+}
+
+.vmenu .sep_li {
+	border-top: 1px ridge #aaa;
+	margin:5px 0
+}
+
+.vmenu .fill_title {
+	font-size:11px;
+	font-weight:bold;
+	height:15px;
+	overflow:hidden;
+	word-wrap:break-word;
+}

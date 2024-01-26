@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+	<title>OpenTree</title>
+	
+	<link rel="stylesheet" type="text/css" href="layout-default.css">
+	<link type="text/css" rel="stylesheet" href="style.css"/>
+	<link type="text/css" rel="stylesheet" href="styles.css"/>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="jquery-ui.js"></script>
+	<script type="text/javascript" src="jquery.layout.js"></script>
+	<script type="text/javascript" src="d3.min.js"></script>
+	<script type="text/javascript" src="mousetrap.js"></script>
+	<script type="text/javascript" src="createCode.js"></script>
+	<script type="text/javascript">
+		var myLayout;
+		$(document).ready(function(){
+		
+			myLayout = $('body').layout({
+				east__minSize:	350
+			});
+		});
+	</script>
+
+</head>
+<body>
+
+<!-- manually attach allowOverflow method to pane -->
+<div class="ui-layout-center" id="treeDiv">
+</div>
+<div class="ui-layout-east" id="propertiesDiv">
+<img src="pitt-logo-whitebkg.gif" alt="University of Pittsburgh logo" style="height:40px; margin:-5px -10px;" />
+	<h3>File</h3>
+		<div id="loadbuttons">
+			<div id="errormessages" style="color:red;"></div>
+			<button onclick="load(1); return false">New</button>
+			<button onclick="document.getElementById('fileInput').click()" return false">Open</button>
+			
+			<div id="fileUploadChooser" style="display:none;">
+				<input type="file" id="fileInput" onclick="return areYouSure();" >
+				<div id="userJSONdiv" style="display:none;"><textarea id="userJSONtext" cols=50 rows=10></textarea></div>
+				<button onclick="load(2); return false">Load</button>
+			</div>
+			
+			<button onclick="download(); return false">Save</button>
+		
+		</div>
+		
+		<hr/>
+		<h3>Node</h3>
+		<p>Name:<br/><textarea id="txtNodeName" style="width:98%; padding:1%;" rows="1" oninput="btnUpdateNodeName()"></textarea></p>
+		<form  class="demoForm" id="rbtnNodeType">
+		
+		<fieldset>
+			<legend>Type</legend>
+			
+			<input type = "radio"
+				name = "radNodeType"
+				id = "nodeDecision"
+				value = "decision" 
+				onclick="btnUpdateNodeName()" />
+			<label for = "nodeDecision">Decision</label>
+			<br/>
+			<input type = "radio"
+				name = "radNodeType"
+				id = "nodeChance"
+				value = "chance"
+				checked = "checked" 
+				onclick="btnUpdateNodeName()" />
+			<label for = "nodeChance">Chance</label>
+			<br/>
+			<input type = "radio"
+				name = "radNodeType"
+				id = "nodeTerminal"
+				value = "terminal" 
+				onclick="btnUpdateNodeName()" />
+			<label for = "nodeTerminal">Terminal</label>
+			<br/>
+			<input type = "radio"
+				name = "radNodeType"
+				id = "nodeMarkov"
+				value = "markov"
+				onclick="btnUpdateNodeName()" />
+			<label for = "nodeMarkov">Markov</label>
+			
+		</fieldset>  
+		</form>
+		<p>Probability:<br/><textarea id="nodeProbability" style="width:98%; padding:1%;"  rows="3" oninput="btnUpdateNodeName()"></textarea></p>
+		<p>Variables:<br/><textarea id="nodeVariables" style="width:98%; padding:1%;"  rows="3" oninput="btnUpdateNodeName()"></textarea></p>
+		<p>Payoff:<br/><textarea id="nodePayoff" style="width:98%; padding:1%;"  rows="3" oninput="btnUpdateNodeName()"></textarea></p>
+		
+		
+		<br/>
+		<hr/>
+		
+		<button id="insertnode" onclick="insertNode();">Insert<span id="ins_text"> [Ins]</span></button> <button id="deletebranch" onclick="deleteBranch()">Delete<span> [Del]</span></button>
+		<button onclick="copyBranch()">Copy Subtree</button> <button onclick="pasteBranch()">Paste</button>
+		<p style="width: 100%;">
+			<span style="display: inline-block; height:25px; width:100%;"><strong style="line-height: 20px;">Tooltip Opacity:</strong> <span style="display:inline-block; width:60%; float:right;"><span id="ttopac" style="display:inline-block; width: 35px;">70%</span> <button onclick="decreaseOpacity(); return false">-</button> <button onclick="increaseOpacity(); return false">+</button></span>
+			</span>
+			<br/>
+			<span style="display: inline-block; height:25px; width:100%;"><strong style="line-height: 20px;">Tooltip Width:</strong> <span style="display:inline-block; width:60%; float:right;"><span id="ttwid" style="display:inline-block; width: 35px;">150</span> <button onclick="decreaseTTW(); return false">-</button> <button onclick="increaseTTW(); return false">+</button></span>
+			</span>
+		</p>
+		<hr/>
+		<button id="createRcode" onclick="createRcode();">Generate R code</button>
+		<div id="jsonstring"></div>
+		<div id="rcodestring"></div>
+		<script type="text/javascript">
+			if (navigator.appVersion.indexOf("Mac")!=-1) {
+				document.getElementById("ins_text").innerHTML = " [Ins or Ctrl-n]";
+			}
+		</script>
+		<script type="text/javascript" src ="treeLayoutNew.js"></script>
+	</div>
+
+</body>
+</html>

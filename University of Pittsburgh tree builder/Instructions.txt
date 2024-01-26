@@ -1,0 +1,6 @@
+1. Open TreeBuilder/index.html (in Chrome or firefox)
+2. Build your tree. insert nodes (insert button on Windows, Ctrl+n on Mac), edit nodes, delete nodes, set properties and update after each change.
+3. Save tree as JSON. Later you can upload the text and re-create the Tree.
+4. Click on “Generate R code” button to generate the R code of the tree
+5. Open the example file “Decision Tree.json”
+6. Each line on the generated R code represents the calculation of the expected value for each strategy modeled in the tree

@@ -9,6 +9,8 @@ This seminar will take place over two days:
 
 Reading materials for the seminar are located in the [Readings folder](https://github.com/mbounthavong/Makov-model-tutorials/tree/main/Readings).
 
+## A tutorial on how to construct a Markov model using Excel is available [here](https://rpubs.com/mbounthavong/markov_model_using_excel).
+
 ## Notes
 ### 01 December 2023:
 - Please check back here prior to the seminar to download the most recent updates

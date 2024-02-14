@@ -22,7 +22,7 @@ The presentation on Markov Models is available [here](https://github.com/mbounth
 ## Useful links
 - VA Health Economics Resource Center (HERC) website ([link](https://www.research.va.gov/programs/csp/herc.cfm))
 
-- ## References
+## References
 - A very useful reference is Briggs, Claxton, and Sculpher's book [Decision Modeling for Health Economic Evaluation](https://www.herc.ox.ac.uk/downloads/decision-modelling-for-health-economic-evaluation)
 
 

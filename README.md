@@ -15,7 +15,7 @@ A tutorial on how to construct a Markov model using Excel is available [here](ht
 ## Presentation on Introduction to Markov Models
 The presentation on Markov Models is available [here](https://github.com/mbounthavong/Makov-model-tutorials/tree/main/Presentations)
 
-## Tutorial on how to apply survival functions in Markov models
+## Tutorials on how to apply survival functions in Markov models
 I wrote two tutorials on how to digitize data from a Kaplan-Meier curve and calculate the Weibull function parameters to use in a Markov model. This will allow users to create a Markov process using the survival function. 
 
 The first part involves digitizing data from a KM curve and then using R to estimate the Weibull function parameters ([Part 1](https://mbounthavong.com/blog/2018/3/15/generating-survival-curves-from-study-data-an-application-for-markov-models-part-1-of-2))

@@ -34,7 +34,8 @@ The second part uses the Weibull survival function in a Markov model ([Part 2](h
 
 ## Disclaimers and Disclosures
 This is for educational purposes only. 
-Any errors or misinterprations of the data and references are those of the authors and do not represent the source's positions. 
+
+Any errors or misinterprations of the data and references are those of the author and do not represent the source's positions. 
 
 
 

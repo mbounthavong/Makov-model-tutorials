@@ -32,6 +32,10 @@ The second part uses the Weibull survival function in a Markov model ([Part 2](h
 ## References
 - A very useful reference is Briggs, Claxton, and Sculpher's book [Decision Modeling for Health Economic Evaluation](https://www.herc.ox.ac.uk/downloads/decision-modelling-for-health-economic-evaluation)
 
+## Disclaimers and Disclosures
+This is for educational purposes only. 
+Any errors or misinterprations of the data and references are those of the authors and do not represent the source's positions. 
+
 
 
 

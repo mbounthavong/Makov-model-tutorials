@@ -26,6 +26,9 @@ The second part uses the Weibull survival function in a Markov model ([Part 2](h
 ### 01 December 2023:
 - Please check back here prior to the seminar to download the most recent updates
 
+### 28 February 2024:
+- Updated with Markov model in Excel. 
+
 ## Useful links
 - VA Health Economics Resource Center (HERC) website ([link](https://www.research.va.gov/programs/csp/herc.cfm))
 

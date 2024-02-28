@@ -27,7 +27,7 @@ The second part uses the Weibull survival function in a Markov model ([Part 2](h
 - Please check back here prior to the seminar to download the most recent updates
 
 ### 28 February 2024:
-- Updated with Markov model in Excel. 
+- Updated with Markov model in Excel. The Excel file is located [here](https://github.com/mbounthavong/Makov-model-tutorials/tree/main/Excel%20files).
 
 ## Useful links
 - VA Health Economics Resource Center (HERC) website ([link](https://www.research.va.gov/programs/csp/herc.cfm))

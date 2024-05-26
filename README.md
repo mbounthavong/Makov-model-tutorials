@@ -1,11 +1,11 @@
 # Introduction to Markov models in Cost-Effectiveness Analysis
 
+This is a repository of materials for the VA Health Economics Resource Center (HERC) cyberseminar on "Introduction to Markov Models in Cost-Effectiveness Analysis."
 
-Materials for the VA Health Economics Resource Center (HERC) course on "Introduction to Markov Models in Cost-Effectiveness Analysis" will be uploaded prior to the start of the seminar on Wednesday, 14 February 2024.
-
-This seminar will take place over two days:
+These seminars took place over two days:
 - Wednesday, 14 February 2024 @ 11:00 am to 12:00 pm (PT)
 - Wednesday, 28 February 2024 @ 11:00 am to 12:00 pm (PT)
+- Recordings are located on the VA HERC cyberseminar site ([part 1](https://www.hsrd.research.va.gov/for_researchers/cyber_seminars/archives/video_archive.cfm?SessionID=6473) and [part 2](https://www.hsrd.research.va.gov/for_researchers/cyber_seminars/archives/video_archive.cfm?SessionID=6476))
 
 Reading materials for the seminar are located in the [Readings folder](https://github.com/mbounthavong/Makov-model-tutorials/tree/main/Readings).
 
@@ -29,6 +29,10 @@ The second part uses the Weibull survival function in a Markov model ([Part 2](h
 ### 28 February 2024:
 - Updated with Markov model in Excel. The Excel file is located [here](https://github.com/mbounthavong/Makov-model-tutorials/tree/main/Excel%20files).
 - Updated [presentation](https://github.com/mbounthavong/Makov-model-tutorials/tree/main/Presentations) with some minor edits. 
+
+### 26 May 2024: 
+- Updated with links to the Cyberseminar recordings.
+
 
 ## Useful links
 - VA Health Economics Resource Center (HERC) website ([link](https://www.research.va.gov/programs/csp/herc.cfm))
